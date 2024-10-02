@@ -6,6 +6,7 @@ LIC_FILES_CHKSUM = "file://setup.cfg;beginline=22;endline=22;md5=3d0bd1ac53c1dd5
 
 SRC_URI += "file://0001-Remove-optional-pytest-dependencies.patch \
            file://0002-Fix-regression-when-enitre-workspace-is-symlinked.patch \
+           file://0003-Force-shebang-to-usr-bin-env-python3.patch \
            "
 SRC_URI[sha256sum] = "8b3dcf0b140b2851a9169c60b3ed2ca78a6e48fec8ececdeefa287a6715f2e17"
 
